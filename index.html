@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cará 4Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header id="header">
+        <a href="index.html">
+            <img src="images/logo.png" alt="logotipo" class="logo">
+        </a>
+        <nav>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Loja</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li class="cart"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span>0</span></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <a href="cart.html" class="cart"><i class="fa-solid fa-bag-shopping"></i><span>0</span></a>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </nav>
+    </header>
+    <section id="hero">
+        <h4>Aproveite as ofertas</h4>
+        <h2>Ofertas imperdíveis</h2>
+        <h1>Em todos os produtos</h1>
+        <p>Economize mais com cupons e descontos de até 70%!</p>
+        <button type="button" onclick="btnGotoShop()">Ir para a Loja</button>
+    </section>
+    <section id="feature" class="section-padding">
+        <!-- render features here -->
+    </section>
+    <section id="products-list-lancamentos" class="section-padding">
+        <h2>Destaques</h2>
+        <p>Coleção de Verão com Design Moderno</p>
+        <div class="product-list-container-home">
+            <div class="product-card" onclick="window.location.href = 'shop.html'">
+                <img src="images/products/f1.jpg" alt="imagem do produto em destaque">
+                <div class="product-card-description">
+                    <span>adidas</span>
+                    <h5>Cartoon Flower Shirt</h5>
+                    <div class="ranking-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, inventore?</p>
+                    <h4>R$ 150</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product-card"  onclick="window.location.href = 'shop.html'">
+                <img src="images/products/f6.jpg" alt="imagem do produto em destaque">
+                <div class="product-card-description">
+                    <span>adidas</span>
+                    <h5>Coat Shirt Double Colors</h5>
+                    <div class="ranking-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, inventore?</p>
+                    <h4>R$ 190</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product-card"  onclick="window.location.href = 'shop.html'">
+                <img src="images/products/f5.jpg" alt="imagem do produto em destaque">
+                <div class="product-card-description">
+                    <span>adidas</span>
+                    <h5>Spring Flower Shirt</h5>
+                    <div class="ranking-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, inventore?</p>
+                    <h4>R$ 150</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="banner-call-to-action" class="section-margin">
+        <h4>Serviços de Reparo</h4>
+        <h2>Até <span>70% de desconto</span> - Todas as Camisas e Acessórios</h2>
+        <button class='normal'>Saiba Mais</button>
+    </section>
+    <section id="products-list-lancamentos" class="section-padding">
+        <h2>Lançamentos</h2>
+        <p>Coleção de Verão com Design Moderno</p>
+        <div class="product-list-container-home">
+            <div class="product-card"  onclick="window.location.href = 'shop.html'">
+                <img src="images/products/f7.jpg" alt="imagem do produto em destaque">
+                <div class="product-card-description">
+                    <span>adidas</span>
+                    <h5>Floral Summer Pants</h5>
+                    <div class="ranking-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, inventore?</p>
+                    <h4>R$ 130</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product-card"  onclick="window.location.href = 'shop.html'">
+                <img src="images/products/n6.jpg" alt="imagem do produto em destaque">
+                <div class="product-card-description">
+                    <span>adidas</span>
+                    <h5>Beauty Shorts</h5>
+                    <div class="ranking-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, inventore?</p>
+                    <h4>R$ 110</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product-card"  onclick="window.location.href = 'shop.html'">
+                <img src="images/products/n8.jpg" alt="imagem do produto em destaque">
+                <div class="product-card-description">
+                    <span>adidas</span>
+                    <h5>Dark Casual Shirt</h5>
+                    <div class="ranking-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, inventore?</p>
+                    <h4>R$ 150</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sm-banner" class="section-padding">
+        <div class="banner-card"> 
+            <h4>mega promoção</h4>
+            <h2>compre 1 e ganhe 1</h2>
+            <span>Os melhores vestidos estão na Cará 4Us</span>
+            <button class="white">Saiba Mais</button>
+        </div>
+        <div class="banner-card"> 
+            <h4>coleção</h4>
+            <h2>primavera/verão</h2>
+            <span>As mais lindas camisas você encontra aqui</span>
+            <button class="white">Ver Coleção</button>
+        </div>
+    </section>
+    <section id="banner-row">
+        <div class="banner-card"> 
+            <p>promo</p>
+            <h2>SAZONAL</h2>
+            <h3>coleção inverno</h3>
+            <h2>50% OFF</h2>
+        </div>
+        <div class="banner-card"> 
+            <h2>SANDÁLIAS COLEÇÃO</h2>
+            <h3>primavera/verão 2024</h3>
+        </div>
+        <div class="banner-card "> 
+            <h2 class="trendy">All Trendy</h2>
+            <h3 class="trendy">nas cores certas</h3>
+        </div>
+    </section>
+    <section id="newsletter" class="section-padding section-margin" >
+        <div id="newstext">
+            <h4>Cadastre-se para receber nossa Newsletter</h4>
+            <p>Receba novidades por e-mail e <span>ofertas especiais</span></p>
+        </div>
+        <form class="form">
+            <input type="email" placeholder="Seu melhor e-mail">
+            <button class="normal">Cadastrar</button>
+        </form>
+    </section>
+    <footer class="section-padding footer">
+        <div class="col">
+            <img class="logo" src="images/logo.png" alt="imagem do logotipo">
+            <h4>Contact</h4>
+            <p><strong>Endereço:</strong> Rua Oscar Freire, São Paulo</p>
+            <p><strong>Telefone:</strong> +55 11 99999-X000</p>
+            <p><strong>Horário de Funcionamento:</strong> 10h - 20h. Todos os dias.</p>
+            <div class="follow-us">
+                <h4>Siga nossas redes</h4>
+                <div class="icon-follow-us">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre a Cará 4Us</a>
+            <a href="#">Entregas</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Contate-nos</a>
+        </div>
+        <div class="col">
+            <h4>Minha Conta</h4>
+            <a href="#">Login</a>
+            <a href="#">Meu carrinho</a>
+            <a href="#">Meus favoritos</a>
+            <a href="#">Rastrear Pedidos</a>
+            <a href="#">Ajuda</a>
+        </div> 
+        <div class="col install-app">
+            <h4>Installe Nosso App</h4>
+            <p>App Store ou Google Play</p>
+            <div class="btn-row">
+                <img src="images/pay/app.jpg" alt="imagem do app store">
+                <img src="images/pay/play.jpg" alt="imagem do google play">
+            </div>
+            <p>Pagamentos Seguros</p>
+            <img src="images/pay/card-pay.png" alt="imagens dos cartoes de creditos aceitos">
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 - Cará 4Us - Desenvolvido por <a href="https://www.linkedin.com/in/juliana-g-madeira/">Juliana Madeira Tech</a></p>
+        </div>
+    </footer>
+    <script src="scripts/api.js"></script>
+    <script src="scripts/home.js"></script>
+</body>
+</html>
