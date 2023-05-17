@@ -6,7 +6,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f1.jpg",
+        imgSrc: "../../images/products/f1.jpg",
         brand: "adidas"
     },
     {
@@ -16,7 +16,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f6.jpg",
+        imgSrc: "../../images/products/f6.jpg",
         brand: "adidas"
     },
     {

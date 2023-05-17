@@ -5,10 +5,11 @@ const featuresListContainer = document.getElementById('feature');
 
 //funçao para criar as features que serao carregadas
 const createFeaturesHome = () => {
+    featuresListContainer.innerHTML = '';
     features.forEach((feature) => {
         featuresListContainer.innerHTML += `
         <div class="feature-card">
-            <img src="${feature.img}" alt="feature image">
+            <img src="${feature.img}" alt="${feature.name}">
             <h6>${feature.text}</h6>
         </div>
         `
