@@ -6,7 +6,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f1.jpg",
+        imgSrc: "./images/products/f1.jpg",
         brand: "adidas"
     },
     {
@@ -16,7 +16,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f6.jpg",
+        imgSrc: "./images/products/f6.jpg",
         brand: "adidas"
     },
     {
@@ -26,7 +26,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f5.jpg",
+        imgSrc: "./images/products/f5.jpg",
         brand: "adidas"
     },
     {
@@ -36,7 +36,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f7.jpg",
+        imgSrc: "./images/products/f7.jpg",
         brand: "adidas"
     },
     {
@@ -46,7 +46,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n6.jpg",
+        imgSrc: "./images/products/n6.jpg",
         brand: "adidas"
     },
     {
@@ -56,7 +56,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n8.jpg",
+        imgSrc: "./images/products/n8.jpg",
         brand: "adidas"
     },
     // {
@@ -76,7 +76,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f2.jpg",
+        imgSrc: "./images/products/f2.jpg",
         brand: "adidas"
     },
     {
@@ -86,7 +86,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f3.jpg",
+        imgSrc: "./images/products/f3.jpg",
         brand: "adidas"
     },
     {
@@ -96,7 +96,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f4.jpg",
+        imgSrc: "./images/products/f4.jpg",
         brand: "adidas"
     },
     {
@@ -106,7 +106,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/f8.jpg",
+        imgSrc: "./images/products/f8.jpg",
         brand: "adidas"
     },
     {
@@ -116,7 +116,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n1.jpg",
+        imgSrc: "./images/products/n1.jpg",
         brand: "adidas"
     },
     {
@@ -126,7 +126,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n2.jpg",
+        imgSrc: "./images/products/n2.jpg",
         brand: "adidas"
     },
     {
@@ -136,7 +136,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n3.jpg",
+        imgSrc: "./images/products/n3.jpg",
         brand: "adidas"
     },
     {
@@ -146,7 +146,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n4.jpg",
+        imgSrc: "./images/products/n4.jpg",
         brand: "adidas"
     },
     {
@@ -156,7 +156,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n5.jpg",
+        imgSrc: "./images/products/n5.jpg",
         brand: "adidas"
     },
     {
@@ -166,7 +166,7 @@ const products = [
         inCart: 0,
         description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
-        imgSrc: "../images/products/n7.jpg",
+        imgSrc: "./images/products/n7.jpg",
         brand: "adidas2"
     },
     // {
