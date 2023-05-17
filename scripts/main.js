@@ -9,7 +9,7 @@ const createShopProduct = () => {
     products.forEach(product => {
         productListContainer.innerHTML += `
             <div class="product-card">
-                <img src=${product.imgSrc} alt="${product.name}">
+                <img src='${product.imgSrc}' alt="${product.name}">
                 <div class="product-card-description">
                     <span>${product.brand}</span>
                     <h5>${product.name}</h5>
