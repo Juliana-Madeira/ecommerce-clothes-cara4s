@@ -196,6 +196,7 @@ const features = [
         id: 00,
         text: "Frete grátis",
         img: "../../images/features/f1.png"
+        
     },
     {
         id: 01,
